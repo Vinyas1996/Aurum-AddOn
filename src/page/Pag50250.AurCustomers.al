@@ -15,6 +15,7 @@ page 50250 "Aur_Customers"
             {
                 field(Address; Rec.Address)
                 {
+
                     ApplicationArea = All;
                     ToolTip = 'Specifies the customer''s address. This address will appear on all sales documents for the customer.';
                 }
