@@ -1,0 +1,45 @@
+{
+  "id": "e7e0615f-352d-497e-ac45-e0a15da1539e",
+  "name": "AGT-AurumGroup-Customization",
+  "publisher": "Allgrow Technologies Pvt Ltd",
+  "version": "1.0.0.15",
+  "brief": "This extension provides customization for Add On",
+  "description": "This extension provides customization for Add On",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "e7e4551c-46e4-40a0-98aa-d33dc1d10bde",
+      "name": "Multi-Entity Management (NA)",
+      "version": "1.1.64.0",
+      "publisher": "Binary Stream Software Inc."
+    },
+    {
+      "id": "5b8eac9a-532d-4eb0-84dc-4d925f1bd7f4",
+      "name": "Aurum DL Import",
+      "publisher": "VoxISM",
+      "version": "1.0.60.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 50250,
+      "to": 50400
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

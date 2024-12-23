@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "tenant": "1249ee96-8547-4aee-ad25-87ff18a52f3f",
+            "environmentType": "Sandbox",
+            // "environmentName": "Sandbox-230925",  //AGT_MD_051324 changed the sandbox name
+            "environmentName": "Aur-24Wave2-241021",  //AGT_MD_100724, changed sandbox name to deploy the extension name for testing (as requested)
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            // "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
