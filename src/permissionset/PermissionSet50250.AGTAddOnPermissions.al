@@ -1,5 +1,3 @@
-namespace AGTAddOnPermissions;
-
 permissionset 50250 AGTAddOnPermissions
 {
     Assignable = true;
